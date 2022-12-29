@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --card-01-color-01: #ffb200;
+    --card-01-color-02: #ff9700;
+    --card-02-color-01: #96c110;
+    --card-02-color-02: #80ad0a;
+    --card-03-color-01: #64b2f2;
+    --card-03-color-02: #489ed9;
+    --card-body-bg-color: #fff;
+    --text-disabled-color: #b2b2b2;
+    --icon-disabled-color:#ff0404;
+    --body-bg-color:#e5f6ff;
+
+    --poppins-font:"Poppins", sans-serif;
+    --bebas-font:"Bebas Neue", cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--body-bg-color);
+}
+
+.main-container{
+    position: relative;
+    max-width: 900px;
+    min-height: 100vh;
+    margin-left: auto;
+}
+
+
+
